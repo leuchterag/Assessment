@@ -1,0 +1,70 @@
+swagger: '2.0'
+info:
+  version: v2
+  title: TimeLog Types API
+  description: LAG Microservice for Timelog Types
+  contact:
+    name: Angelo Conconi
+    email: angelo.conconi@leuchterag.ch
+consumes:
+  - application/json
+produces:
+  - application/json
+schemes:
+  - https
+basePath: /v1/
+paths:
+  /timelogtypes/:
+    get:
+      summary: Returns all Timelog Types
+      responses:
+        '200':
+            description: Success
+            schema:
+              type: array
+              items:
+                $ref: '#/definitions/TimelogTypeResponse'
+    put:
+      summary: Creates a new Timelog Type
+      parameters:
+        - name: timelogType
+          in: body
+          required: true
+          description: The new Timelog Type
+          schema:
+            $ref: '#/definitions/TimelogTypeRequest'
+      responses:
+        '200':
+          description: The Timelog Type has been created
+  '/timelogtypes/{timelogTypeId}':
+    get:
+      summary: Returns a specific Timelog Type
+      parameters:
+        - name: timelogTypeId
+          in: path
+          required: true
+          description: The id of the specific Timelog Type
+          type: integer
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/TimelogTypeResponse'
+definitions:
+  TimelogTypeRequest:
+    type: integer
+    description: Timelog Type ID
+  TimelogTypeResponse:
+    description: Timelog Type responses
+    type: object
+    properties:
+      timelogTypeId:
+        description: ID of the Timelog Type
+        type: integer
+      timelogType:
+        description: Timelog Type
+        type: string
+      budget:
+        description: Amount of time for specific Timelog type
+        type: number
+securityDefinitions: {}

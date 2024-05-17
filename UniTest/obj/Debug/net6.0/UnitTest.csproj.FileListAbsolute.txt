@@ -1,0 +1,5 @@
+C:\Users\lucab\OneDrive\Desktop\LeuchterSchnuppertag\UniTest\obj\Debug\net6.0\UnitTest.csproj.AssemblyReference.cache
+C:\Users\lucab\OneDrive\Desktop\LeuchterSchnuppertag\UniTest\obj\Debug\net6.0\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucab\OneDrive\Desktop\LeuchterSchnuppertag\UniTest\obj\Debug\net6.0\UnitTest.AssemblyInfoInputs.cache
+C:\Users\lucab\OneDrive\Desktop\LeuchterSchnuppertag\UniTest\obj\Debug\net6.0\UnitTest.AssemblyInfo.cs
+C:\Users\lucab\OneDrive\Desktop\LeuchterSchnuppertag\UniTest\obj\Debug\net6.0\UnitTest.csproj.CoreCompileInputs.cache

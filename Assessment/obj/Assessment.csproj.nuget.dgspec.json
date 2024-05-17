@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\LAG-SE-Playground\\Assessment\\Assessment\\Assessment.csproj": {}
+    "C:\\Users\\space\\Assessment\\Assessment\\Assessment.csproj": {}
   },
   "projects": {
-    "C:\\repos\\LAG-SE-Playground\\Assessment\\Assessment\\Assessment.csproj": {
+    "C:\\Users\\space\\Assessment\\Assessment\\Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\LAG-SE-Playground\\Assessment\\Assessment\\Assessment.csproj",
+        "projectUniqueName": "C:\\Users\\space\\Assessment\\Assessment\\Assessment.csproj",
         "projectName": "Assessment",
-        "projectPath": "C:\\repos\\LAG-SE-Playground\\Assessment\\Assessment\\Assessment.csproj",
-        "packagesPath": "C:\\Users\\anco\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\LAG-SE-Playground\\Assessment\\Assessment\\obj\\",
+        "projectPath": "C:\\Users\\space\\Assessment\\Assessment\\Assessment.csproj",
+        "packagesPath": "C:\\Users\\space\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\space\\Assessment\\Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\space\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,7 +54,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
